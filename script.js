@@ -219,8 +219,8 @@ $(document).mouseup(function(){
 
 
 var wheat = {
-  timeToGrow: 2,
-  profit: 0.01,
+  timeToGrow: 0.2,
+  profit: 999.99,
   cost: 0,
   unlocked: true,
   efficiency: 1,
