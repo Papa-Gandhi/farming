@@ -219,13 +219,13 @@ $(document).mouseup(function(){
 
 
 var wheat = {
-  timeToGrow: 0.2,
-  profit: 999.99,
+  timeToGrow: 0.02,
+  profit: 3.2768e36*1.01,
   cost: 0,
   unlocked: true,
-  efficiency: 1,
+  efficiency: 200,
   effPrice: 0.01,
-  efficiencyMax: 20,
+  efficiencyMax: 200,
   unlockPrice: 0,
   growsIn: "summer",
   totalGrown: 0,
@@ -246,7 +246,7 @@ var herb = {
   timeToGrow: 20,
   profit: 2500*1.01,
   cost: 2500,
-  unlocked: false,
+  unlocked: true,
   efficiency: 1,
   effPrice: 2500,
   efficiencyMax: 20,
