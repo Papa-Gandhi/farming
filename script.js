@@ -444,7 +444,7 @@ function engine(){
   $('#money').html("Money: £"+simplify(money));
   $('#moreSpaceBtn').html("+1 plot ("+$('.tile').length+")<br>£"+simplify(moreSpacePrice));
   $('#growthSpeedBtn').html("Faster growth"+"<br>£"+simplify(growthSpeedPrice));
-  $('#replantUpgradeBtn').html("Replant chance<br>"+replantChance+"%");
+  $('#replantUpgradeBtn').html("Replant chance<br>"+replantChance+"5%");
   $('#replantUpgradeBtn').attr('title', "£"+simplify(replantPrice));
   
   $('#seasonbar').html((format(seasonTime)));
